@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Prognose</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- FontAwesome.com -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="search">
+        <div class="row">
+            <div class="col-md-6 text_input"><input id="text_input" type="text"></div>
+            <div class="col-md-6 weather_button"><button type="button" id="weather_button"
+                    class="btn btn-outline-primary">☁ Search City</button></div>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="weather_city">City</div>
+            <div class="col-md-6" id="weather_logo"><img id="img_weather_logo"
+                    src="https://www.freeiconspng.com/thumbs/weather-icon-png/weather-icon-png-2.png" alt=""></div>
+
+            <div class="col-md-6">
+                <div class="col-md-12">Temperature</div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-12" id="weather_temp"></div>
+                    <div class="col-lg-6 col-md-12" id="Temperature_logo">🌡</div>
+                    <div class="col-md-12" id="weather_humidity">Humidity</div>
+                    <div class="col-md-6"><img class="SunPictures" src="images/sunrise.png" alt="sunrise"></div>
+                    <div class="col-md-6"><img class="SunPictures" src="images/sunset.png" alt="sunrise"></div>
+                    <div class="col-md-6" id="weather_sunrise"></div>
+                    <div class="col-md-6" id="weather_sunset"></div>
+
+                </div>
+
+
+
+            </div>
+            <div class="col-md-6" id="weather_description">Weather Condition : </div>
+            <div class="col-md-6" id="weather_wind_speed">Wind Speed 💨</div>
+            <br>
+            <br>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="app.js" charset="utf-8"></script>
+
+
+
+</body>
+
+</html>

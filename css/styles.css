@@ -1,0 +1,72 @@
+body {
+    background-image: url("../images/bodyimg.jpg");
+    background-repeat: no-repeat;
+    color: white;
+}
+.container {
+    margin: 5% auto auto auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    border-radius: 3%;
+    background-image: url("../images/images.jpg")
+    
+
+}
+
+.search {
+    height: 10%;
+    margin-top: 5%;
+}
+
+.horizontal_line {
+    width: 60px;
+    margin: auto;
+}
+
+.text_input {
+    text-align: right;
+    margin: auto;
+
+}
+
+@media screen and (max-width: 800px) {
+.text_input {
+    text-align: center;
+    margin: auto;
+
+}
+.weather_button {
+    text-align: center;
+    margin: 2% auto auto auto;
+}
+}
+
+.SunPictures {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+
+}
+
+#Temperature_logo {
+    font-size: 350%;
+}
+
+#img_weather_logo {
+    width: 80%;
+    height: 100%;
+}
+
+#weather_temp {
+    font-size: 350%;
+    font-weight: 300;
+}
+
+#weather_humidity {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#weather_city{
+    margin-top: 2%;
+}
